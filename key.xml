@@ -1,0 +1,3 @@
+<server description="new server">
+    <variable name="wlp.password.encryption.key" value="2D0332556743199AF6BDF78E3DE6FAA0"/>
+</server>

@@ -1,0 +1,18 @@
+<server description="new server">
+    <!-- Enable features -->
+    <featureManager>
+        <feature>webProfile-8.0</feature>
+    </featureManager>
+
+    <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
+    <httpEndpoint id="defaultHttpEndpoint"
+                  httpPort="9080"
+                  httpsPort="9443" />
+                  
+    <!-- Automatically expand WAR files and EAR files -->
+    <applicationManager autoExpand="true"/>
+    <keyStore id="defaultKeyStore" password="{aes}AFmHc/AB/NomDWbJjscFTcurw9ksZ/1h+GcIojXsx+M5"/>
+    <ltpa keysPassword="{aes}AFmHc/AB/NomDWbJjscFTcurw9ksZ/1h+GcIojXsx+M5" expiration="120"/>
+    <include location="${server.config.dir}/key.xml"/>
+    <!-- variable name="wlp.password.encryption.key" value="2D0332556743199AF6BDF78E3DE6FAA0"/-->
+</server>
