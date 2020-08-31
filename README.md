@@ -29,3 +29,6 @@ root@bb63618a2c5b:/# grep key.p12 /logs/messages.log
 [8/26/20 1:37:45:459 GMT] 0000002b com.ibm.ws.ssl.config.WSKeyStore                             A CWPKI0803A: SSL certificate created in 2.108 seconds. SSL key file: /opt/ibm/wlp/output/defaultServer/resources/security/key.p12
 [8/26/20 1:37:45:459 GMT] 0000002b com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: /opt/ibm/wlp/output/defaultServer/resources/security/key.p12 of type: PKCS12
 ```
+## Reference
+
+https://www.ibm.com/support/knowledgecenter/SS7K4U_liberty/com.ibm.websphere.wlp.zseries.doc/ae/cwlp_pwd_encrypt.html
